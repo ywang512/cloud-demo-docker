@@ -3,7 +3,7 @@ FROM python:3.7.3-stretch
 # Working Directory
 WORKDIR /app
 
-# Copy source code to working directory
+# Copy all files to working directory
 COPY . /app/
 
 # Install packages from requirements.txt
